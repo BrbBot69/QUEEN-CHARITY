@@ -6,25 +6,25 @@ global.audio = "www.youtube.com";
 global.video = "www.youtube.com";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "caseyrhodes46@gmail.com";
-global.location = "Eiyenkorin, Nigeria";
+global.email = "avenyamakazi8@gmail.com";
+global.location = "Johannesburg, South Africa";
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://astrofx0011:astro@cluster0.lmwnxdt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 global.allowJids = process.env.ALLOW_JID || "true";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
-global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
+global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Johannesburg";
 global.github = process.env.GITHUB || "https://github.com/caseyweb/QUEEN-CHARITY";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://files.catbox.moe/o4f1bs.jpg";
 global.devs = "254112192119";
-global.sudo = process.env.SUDO || "254112192119";
-global.owner = process.env.OWNER_NUMBER || "254112192119";
+global.sudo = process.env.SUDO || "27767494368";
+global.owner = process.env.OWNER_NUMBER || "27767494368";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
-global.disablepm = process.env.DISABLE_PM || "false";
+global.disablepm = process.env.DISABLE_PM || "true";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
 global.userImages = process.env.USER_IMAGES || "https://files.catbox.moe/knhyh3.jpg";
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "`QUEEN_CHARITY™`",
-  author: process.env.PACK_AUTHER || "𒀱ꪳ𓊈𒆜𓂀ᴸᴼᴿᴰℂ𝔸𝕊𝔼𝕐ℝℍ𝕆𝔻𝔼𝕊𓂀𒆜𓊉 𒀱",
-  packname: process.env.PACK_NAME || "𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇",
-  botname: process.env.BOT_NAME || "`𝗤𝗨𝗘𝗘𝗡_𝗖𝗛𝗔𝗥𝗜𝗧𝗬`",
-  ownername: process.env.OWNER_NAME || "𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒🫅",
+  caption: process.env.CAPTION || "`𝕬𝖛𝖊𝕭𝖔𝖙 𝕸𝕯™`",
+  author: process.env.PACK_AUTHER || "𒀱ꪳ𓊈𒆜𓂀𝕬𝖛𝖊.𝕭☚⍢⃝☚𓂀𒆜𓊉 𒀱",
+  packname: process.env.PACK_NAME || "𝕬𝖛𝖊.𝕭 𝐓𝐄𝐂𝐇",
+  botname: process.env.BOT_NAME || "`𝕬𝖛𝖊𝕭𝖔𝖙 𝕸𝕯`",
+  ownername: process.env.OWNER_NAME || "𝕬𝖛𝖊.𝕭🫅",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
