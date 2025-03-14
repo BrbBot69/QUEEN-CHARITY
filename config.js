@@ -27,7 +27,7 @@ global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "true";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
-global.userImages = process.env.USER_IMAGES || "https://files.catbox.moe/knhyh3.jpg";
+global.userImages = process.env.USER_IMAGES || "https://www.google.com/imgres?q=meme%20pic&imgurl=https%3A%2F%2Fassets.entrepreneur.com%2Fcontent%2F3x2%2F2000%2F20180703190744-rollsafe-meme.jpeg%3Fformat%3Dpjeg%26auto%3Dwebp%26crop%3D4%3A3&imgrefurl=https%3A%2F%2Fwww.entrepreneur.com%2Fscience-technology%2Fhow-to-use-memes-to-attract-more-attention-online%2F315895&docid=GBabZ0mGFUXesM&tbnid=BPYbKZxc1ZNXEM&vet=12ahUKEwjM5vyg7IiMAxUtWUEAHdYMIe0QM3oECBkQAA..i&w=1779&h=1334&hcb=2&ved=2ahUKEwjM5vyg7IiMAxUtWUEAHdYMIe0QM3oECBkQAA";
 global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
